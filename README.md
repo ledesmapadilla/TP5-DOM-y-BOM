@@ -1,4 +1,4 @@
-# ✨ Trabajo Práctico N° 5
+# ✨ Trabajo Práctico N° 5 - Ejercicio 1
 
 ## 📓 Ejercicios de práctica de JS, prácticas con DOM y BOM
 
