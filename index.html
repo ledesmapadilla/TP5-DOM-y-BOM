@@ -1,19 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="IgnacioLP">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-  <link rel="stylesheet" href="./Css/syle.css">
-  <title>Titulo</title>
-</head>
-<body>
-  <header></header>
-  <main></main>
-  <footer></footer>
-  <script src="./JS/ejercicio1.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="IgnacioLP" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./Css/syle.css" />
+    <title>TP5 - Ejercicio 1</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container text-center">
+          <a class="navbar-brand text-center " href="#">Practica DOM</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+            
+            </form>
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1 class="text-center py-5">Ejercicio N° 1</h1>
+      <!-- comenzar juego -->
+      <section class="d-flex justify-content-center py-3">
+        <button class="btn btn-primary" onclick="iniciar()">COMENZAR EL JUEGO</button>
+      </section>
+      <!-- formulario -->
+      <section class="p-5 d-flex justify-content-center text-center">
+        <form class="w-25">
+          <label for="Numero">Ingresa un numero del 1 al 5</label>
+          <input type="number" class="form-control" id="numero" min="0" max="5"/>
+          <button class="btn btn-danger mt-2">
+           Enviar
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer class="text-center py-3 bg-dark-subtle">
+      <p>&copy; Todos los derechos reservados</p>
+    </footer>
+    <script src="./JS/ejercicio1.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
